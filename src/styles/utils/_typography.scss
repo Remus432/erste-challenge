@@ -1,0 +1,13 @@
+.headline {
+  text-align: center;
+  @include text(3, light, #000);
+}
+
+.subheadline {
+  text-align: center;
+  @include text(base, regular, #000);
+}
+
+.description {
+  
+}

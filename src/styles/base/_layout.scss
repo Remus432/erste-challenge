@@ -5,3 +5,13 @@
     padding-right: map-get($spacing, base);
     position: relative;
 }
+
+.content__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5.5rem;
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

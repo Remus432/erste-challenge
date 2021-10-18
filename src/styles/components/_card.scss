@@ -1,0 +1,25 @@
+.content {
+  &__card {
+    display: flex;
+    flex-direction: column;
+
+    &-thumbnail {
+      width: 100%;
+    }
+
+    &-subheadline {
+      margin-top: 2.4rem;
+      @include text(4, semibold, #000);
+    }
+
+    &-description {
+      margin: 2.4rem 0;
+      @include text(5, regular, #000);
+    }
+
+    &-link {
+      text-decoration: none;
+      @include text(5, regular, $color-link);
+    }
+  }
+}

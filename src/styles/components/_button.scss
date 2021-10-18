@@ -11,4 +11,12 @@
         border-bottom-color: #075d89;
         color: $color-white;
     }
+
+    &--outline {
+        align-self: center;
+        background-color: transparent;
+        font-weight: map-get($font-weight, regular);
+        margin-top: 4.3rem;
+        margin-bottom: -1.2rem;
+    }
 }
